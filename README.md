@@ -21,7 +21,8 @@ Azure Maps 为各行各业的开发人员提供强大的地理空间功能，并
 4. 如果你希望对Azure Maps有进一步的了解，可以访问文档https://docs.microsoft.com/zh-cn/azure/azure-maps/index
 ### 下载SimplePokemonGO项目并使用
 顺利完成了上述创建Azure Maps资源的准备工作后，还要做一些SimplePokemonGO项目使用前的准备。
-1. 打开项目主页https://github.com/txfs1926/SimplePokemonGO，下载这个项目（或者在shell中使用命令`git clone https://github.com/txfs1926/SimplePokemonGO.git`）
+1. 打开项目主页https://github.com/txfs1926/SimplePokemonGO
+下载这个项目（或者在shell中使用命令`git clone https://github.com/txfs1926/SimplePokemonGO.git`）
 2. 使用你喜欢的文本编辑器，打开目录下index.js文件，并查找代码中的subscriptionKey，将之前记录的主密钥粘贴到冒号后面部分,这样一来就可以向AzureMaps APIs发送请求获取服务。修改完毕后记得保存。
 3. 用浏览器打开index.html文件，开始体验SimplePokemonGO。
 ## 体验SimplePokemonGO
@@ -29,7 +30,8 @@ Azure Maps 为各行各业的开发人员提供强大的地理空间功能，并
 ![main](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/main.jpg?raw=true)
 通过点击右上角的+、-按钮可以缩放地图，当然如果是电脑端或手机端访问，用鼠标滚轮和手势缩放更为便利。点击右上角的![icon](https://github.com/txfs1926/SimplePokemonGO/blob/master/images/GpsIcon.png?raw=true)便可以定位到用户真实位置（中国大陆地区用户可能只能获得粗略定位），当然请注意允许该程序使用定位功能，否则会获取失败，影响后面的游戏。
 
-我们可以点击地图上一个精灵球图标，查看这只宝可梦的基本信息，可以在弹出的框中看到这只宝可梦的名字和图标，以及所在地和邮编，下半部分有距离当前中心光标指向的位置的距离，还有这只宝可梦的等级，以及一个关于这只宝可梦详细信息的链接，点击后在新的窗口可以看到这只pm的百科信息（感谢https://wiki.52poke.com/wiki/）。
+我们可以点击地图上一个精灵球图标，查看这只宝可梦的基本信息，可以在弹出的框中看到这只宝可梦的名字和图标，以及所在地和邮编，下半部分有距离当前中心光标指向的位置的距离，还有这只宝可梦的等级，以及一个关于这只宝可梦详细信息的链接，点击后在新的窗口可以看到这只pm的百科信息（感谢https://wiki.52poke.com/wiki/
+）。
 
 ![info](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/pokemon%20info.jpg?raw=true)
 
