@@ -13,11 +13,17 @@ Azure Maps 为各行各业的开发人员提供强大的地理空间功能，并
 1. 打开Microsoft Azure 门户网站(https://portal.azure.com)
 如果你不曾拥有一个Azure账户，可以访问(https://azure.microsoft.com/en-us/)
 创建一个免费Azure账户。
+
 ![Azure1](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/a1.jpg?raw=true)
+
 2. 创建一个资源，在搜索框中输入“maps”，找到Azure Maps，选择订阅、资源组、名称和“标准 S1”定价层后，创建该服务。
+
 ![Azure2](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/a2.jpg?raw=true)
+
 3. 进入该资源，选择设置下的身份验证选项卡，将主密钥复制下来，暂时记录到某个地方，后面会用到。
+
 ![Azure3](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/a3.jpg?raw=true)
+
 4. 如果你希望对Azure Maps有进一步的了解，可以访问文档https://docs.microsoft.com/zh-cn/azure/azure-maps/index
 ### 下载SimplePokemonGO项目并使用
 顺利完成了上述创建Azure Maps资源的准备工作后，还要做一些SimplePokemonGO项目使用前的准备。
