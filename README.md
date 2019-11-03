@@ -10,7 +10,9 @@ Niantic 旗下手机游戏《Pokemon GO》如今已经是一款火遍全球的�
 ## Get started
 ### 创建Azure Maps资源
 Azure Maps 为各行各业的开发人员提供强大的地理空间功能，并搭配了可用于为 Web 和移动应用程序提供地理环境的最新地图数据。虽然Azure Maps对中国大陆、日本等地区的支持仍不够充分和完善，但本项目完全由经纬度操作，因此只要用户有一个国外IP，便仍可以使用这一套服务，并体验我们的简易版《Pokemon GO》。下面将介绍Azure Maps服务的开通方法。
-1. 打开Microsoft Azure 门户网站https://portal.azure.com。如果你不曾拥有一个Azure账户，可以访问https://azure.microsoft.com/en-us/，创建一个免费Azure账户。
+1. 打开Microsoft Azure 门户网站(https://portal.azure.com)
+如果你不曾拥有一个Azure账户，可以访问(https://azure.microsoft.com/en-us/)
+创建一个免费Azure账户。
 ![Azure1](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/a1.jpg?raw=true)
 2. 创建一个资源，在搜索框中输入“maps”，找到Azure Maps，选择订阅、资源组、名称和“标准 S1”定价层后，创建该服务。
 ![Azure2](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/a2.jpg?raw=true)
