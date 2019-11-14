@@ -33,7 +33,7 @@ Azure Maps 为各行各业的开发人员提供强大的地理空间功能，并
 2. 使用你喜欢的文本编辑器，打开目录下index.js文件，并查找代码中的subscriptionKey，将之前记录的主密钥粘贴到冒号后面部分,这样一来就可以向AzureMaps APIs发送请求获取服务。修改完毕后记得保存。
 3. 用浏览器打开index.html文件，开始体验SimplePokemonGO。
 ## 体验SimplePokemonGO
-下面是一段简短的演示：
+下面是一段简短的演示(动态图）：
 
 ![gif](https://github.com/txfs1926/SimplePokemonGO/blob/master/doc/GIF.gif?raw=true)
 
